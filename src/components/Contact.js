@@ -75,9 +75,7 @@ const Contact = () => {
 
   return (
     <>
-      <h2 className="head-text">
-        Take a coffee & <span>chat</span> with <span>me</span>
-      </h2>
+      <h2 className="head-text">Contact Me</h2>
 
       <div className="app__contact-cards">
         <div className="app__contact-card">
@@ -88,7 +86,12 @@ const Contact = () => {
         </div>
         <div className="app__contact-card">
           <img src="/assets/mobile.png" alt="mobile" />
-          <a href="tel: +84 376929980" className="p-text">
+          <a
+            href="https://zalo.me/84775932050"
+            target="_blank"
+            className="p-text"
+            rel="noreferrer"
+          >
             +84 376929980
           </a>
         </div>

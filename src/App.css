@@ -221,6 +221,7 @@
   border-radius: 10px;
   font-weight: 500;
   cursor: pointer;
+  text-decoration: none;
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   background: linear-gradient(var(--secondary-color), var(--secondary-color));

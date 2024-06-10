@@ -17,8 +17,7 @@ const About = () => {
       id: 2,
       image: '/assets/IngramRobot.png',
       title: 'Tech Enthusiast',
-      discription:
-        'Love new technologies and like to explore the field of Machine Learning, AI and Image Processing.',
+      discription: 'Love technology and like to explore new fields.',
     },
     {
       id: 3,
@@ -38,11 +37,11 @@ const About = () => {
 
   return (
     <>
-      <h2 className="head-text">
+      {/* <h2 className="head-text">
         I know that <span>Good Design</span>
         <br />
         means <span>Good Business</span>
-      </h2>
+      </h2> */}
 
       <div className="app__about-context app__flex">
         <div className="app__about-img app__flex">
@@ -64,9 +63,14 @@ const About = () => {
             <span>diligent</span> and <span>easygoing</span> person with a good
             sense of humour.
           </p>
-          <div>
-            <button className="portfolio-button">Resume</button>
-          </div>
+          <a
+            target="_blank"
+            className="portfolio-button"
+            href="https://www.canva.com/design/DAGHbz7rmAo/aukX0ac7J6LdSKPNf_cS8A/view?utm_content=DAGHbz7rmAo&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
         </div>
       </div>
 
