@@ -64,10 +64,9 @@ const About = () => {
             sense of humour.
           </p>
           <a
-            target="_blank"
+            href="/assets/CV_Pham_Xuan_Hieu.pdf"
             className="portfolio-button"
-            href="https://www.canva.com/design/DAGHbz7rmAo/aukX0ac7J6LdSKPNf_cS8A/view?utm_content=DAGHbz7rmAo&utm_campaign=designshare&utm_medium=link&utm_source=editor"
-            rel="noreferrer"
+            download="Hieu_Resume.pdf"
           >
             Resume
           </a>
