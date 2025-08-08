@@ -9,6 +9,15 @@ const Work = () => {
   const [works, setWorks] = useState([
     {
       tags: ['NextJS'],
+      imgUrl: '/assets/work/p5.png',
+      title: 'Tổng hợp đại học',
+      projectLink: 'https://tonghopdaihoc.site',
+      codeLink: 'https://tonghopdaihoc.site',
+      description: 'Tổng hợp đại học',
+      work_tag: 'Next JS',
+    },
+    {
+      tags: ['NextJS'],
       imgUrl: '/assets/work/p1.png',
       title: 'Blog Website',
       projectLink: 'https://blog-per.netlify.app',
